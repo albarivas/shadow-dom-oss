@@ -1,9 +1,9 @@
+import '@lwc/synthetic-shadow';
 import { createElement } from 'lwc';
-//import '@lwc/synthetic-shadow';
-import MyLightningWebComponent from 'my/simpleExampleContainer';
+import MyApp from 'my/app';
 
-const app = createElement('my-simple-example-container', {
-    is: MyLightningWebComponent
+const app = createElement('my-app', {
+    is: MyApp
 });
 
 // eslint-disable-next-line @lwc/lwc/no-document-query
